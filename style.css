@@ -11,9 +11,9 @@
 }
 .prod-img{
     width: 100%;
-    height: 400%;
+    height: 80%;
 }
-.prod-card .btn{
+.prod-container .btn{
 WIDTH: 100%;
  padding: 10px;
  BORDER-RADIUS: 10px;
@@ -29,3 +29,7 @@ WIDTH: 100%;
     /* margin-top: 0px; */
     /* margin-bottom: 0px; */
 } 
+.prod-container{
+    display: flex;
+    gap: 10px;
+}
